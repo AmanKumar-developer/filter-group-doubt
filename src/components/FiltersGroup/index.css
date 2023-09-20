@@ -1,0 +1,28 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.category-item {
+  list-style-type: none;
+}
+.category-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.rating-item {
+  list-style-type: none;
+}
+.rating-list {
+  max-width: 450px;
+}
